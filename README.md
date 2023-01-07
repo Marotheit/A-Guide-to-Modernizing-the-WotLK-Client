@@ -128,7 +128,7 @@ This enables World of Warcraft (with the help of Python) to interact with Discor
 This retextures the login, character selection, and character creation screens for use with ElvUI. This is included in the [ElvUI version of LoginTweaks](https://www.mediafire.com/file/bopbpw319m42uit/ElvUI-LoginTweaks.zip), so feel free to skip this step if you decide to use [LoginTweaks](https://www.mediafire.com/file/bopbpw319m42uit/ElvUI-LoginTweaks.zip).
 
 ## Conclusion
-Thank you for your time. If you see anything that can be improved or expanded upon (or especially if you find a nice patch,) please let me know by creating an issue [here](https://github.com/Marotheit/A-Guide-to-Modernizing-the-WotLK-Client/issues). I am always interested in improving the guide. Shoutouts to vvladoon, Leeviathan, Nicolas, Finsternis, sh1tdev, Inico, Trimitor, Milly, Elrena, and vulpe for all their work. They inspired me to write this guide.
+Thank you for your time. If you see anything that can be improved or expanded upon (or especially if you find a nice patch,) please let me know by creating an issue [here](https://github.com/Marotheit/A-Guide-to-Modernizing-the-WotLK-Client/issues). You can view the changelog [here](https://github.com/Marotheit/A-Guide-to-Modernizing-the-WotLK-Client/blob/main/CHANGELOG.md). I am always interested in improving the guide. Shoutouts to vvladoon, Leeviathan, Nicolas, Finsternis, sh1tdev, Inico, Trimitor, Milly, Elrena, and vulpe for all their work. They inspired me to write this guide.
 
 I use these settings on [ChromieCraft](https://www.chromiecraft.com/en/), so if you appreciate this guide and decide to discover your new home, add me as a friend and feel free to use me as a Recruit-a-Friend. My Account ID is `40720`.
 
