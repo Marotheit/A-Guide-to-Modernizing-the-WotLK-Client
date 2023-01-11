@@ -21,7 +21,7 @@ After you have downloaded all components of a patch and ensured the game is full
 
 You should _**never**_ overwrite the original patches provided to you during the initial setup process (this being `common.MPQ`, `common-2.MPQ`, `expansion.MPQ`, `lichking.MPQ`, `patch.MPQ`, `patch-2.MPQ`, or `patch-3.MPQ`), otherwise your installation will cease to work.
 
-Patches are initialized in numerical, then alphabetical order. In rare instances, some patches must load before others to ensure compatibility. You can find the initialization order I use for the below patches [here](https://gist.github.com/Marotheit/3e20a4bf1153f539de65852be46192b8).
+Patches are initialized in numerical, then alphabetical order. In rare instances, some patches must load before others to ensure compatibility. You can find the initialization order I use for the below patches [here](https://github.com/Marotheit/A-Guide-to-Modernizing-the-WotLK-Client/blob/main/PatchInitializationOrder.md).
 
 If you wish to uninstall a patch, simply delete it from the `World of Warcraft\Data` folder.
 
@@ -44,6 +44,7 @@ While each source *should* contain the most up-to-date version of any given patc
 
 ### Other Patches:
 - [Blood Mod](https://www.mediafire.com/file/joqnhqjvx2ya6fw/Blood_Mod_Patch.zip) by [Inico](https://model-changing.net/files/file/128-blood-mod-for-wotlk-and-cata-v3/) adds blood puddle animations to combat that disappear over time.
+- [ChromieCraft Cosmetics](https://www.mediafire.com/file/wgmn81hdsjqgjny/ChromieCraft_Cosmetics_Patch.zip) by [Roboto](https://discord.gg/jUdJRhmT3J) adds support for cosmetic icons on ChromieCraft.
 - [Dungeon Maps](https://www.mediafire.com/file/c7xzo65mlrpbrks/Dungeon_Maps_Patch.zip) by [Trimitor](https://forum.warmane.com/showthread.php?t=424250) adds instance maps for Classic and Burning Crusade instances. Be sure to also install the included `WDM` AddOn.
 - [LoginTweaks](https://www.mediafire.com/file/vzw3282zdhe88ty/LoginTweaks.zip) by [Marotheit](https://model-changing.net/files/file/307-logintweaks-wotlk/) removes much of the extra login screen clutter and adds a convenient 'Remember Password' option. Also available in an [ElvUI flavor](https://www.mediafire.com/file/bopbpw319m42uit/LoginTweaks_%2528ElvUI_Flavor%2529.zip). _**As an important note, using the 'Remember Password' feature stores your password in plain text, so understand you would be forgoing security in exchange for convenience.**_
 - [Old World Music Rescore](https://www.mediafire.com/file/kw0059s4vfxxhwy/Old_World_Music_Rescore_Patch.zip) by [Leeviathan](https://model-changing.net/gc/12-leeviathans-old-world-music-rescore/) replaces the [older vanilla zone music](https://www.youtube.com/watch?v=CRa537H1B_4) with the [rescored music](https://www.youtube.com/watch?v=qAY0T6lbPr8) introduced in Cataclysm.
