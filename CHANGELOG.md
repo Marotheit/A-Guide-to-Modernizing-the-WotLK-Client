@@ -1,4 +1,7 @@
-(01.1.2023)
+(01.12.2023)
+- Added Avarath's Clean Icon (Wotlk Edition) "patch".
+##
+(01.11.2023)
 - Added Roboto's ChromieCraft Cosmetics patch. I know this is server specific, but my friends and family play exclusively on ChromieCraft.
 - Updated and initialized the patch initialization order.
 ## 
