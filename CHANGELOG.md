@@ -1,3 +1,6 @@
+(06.29.2023)
+- Added a section on ReShade installation.
+##
 (01.12.2023)
 - Added Avarath's Clean Icon (Wotlk Edition) "patch".
 ##
