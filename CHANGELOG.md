@@ -1,5 +1,7 @@
 (06.29.2023)
 - Added a section on ReShade installation.
+- Added Roboto's ChromieCraft Challenge Modes patch. I know this is server specific, but my friends and family play exclusively on ChromieCraft.
+- Added mrthinger's Voiceover AddOn.
 ##
 (01.12.2023)
 - Added Avarath's Clean Icon (Wotlk Edition) "patch".
