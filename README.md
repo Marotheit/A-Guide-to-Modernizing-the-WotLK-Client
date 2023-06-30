@@ -93,6 +93,29 @@ Ultra+ Graphics 3:
 /console weatherDensity 3
 ```
 
+## ReShade
+[ReShade](https://reshade.me/) is a post-processing injector that can add ambient occlusion, anti-aliasing, color correction, film grain, depth of field effects, and more visual effects to games that do not normally include this functionality. This can provide graphical improvements that would normally be impossible using an unmodified World of Warcraft client.
+
+> Through testing, I have discovered the Wrath of the Lich King client is only compatible with ReShade versions 4.9.1 and below. If someone is able to get the latest version of ReShade working with the client, feel free to message me and I'll update the guide to the latest version.
+
+To install and configure ReShade, follow the step below.
+
+>1.) Download [ReShade v4.9.1](https://www.mediafire.com/file/32o5pwxibc8m7rz/ReShade_Setup_v4.9.1.zip/file), and extract the zip to a location of your choosing.
+>
+>2.) Launch the downloaded ReShade Setup executable.
+>
+>3.) Click the 'Click here to select a game and manage its ReShade installation' button and navigate to (and select) the World of Warcraft executable.
+>
+>4.) Select 'OpenGL' as the rendering API.
+>
+>5.) You will be prompted to select the effects packages you wish to install. I recommend the default options (the full 'Standard effects' installation and the full 'SweetFX' installation). Click the 'OK' button when you have completed this step.
+>
+>6.) At this point, assuming the installation was successful, you can exit the ReShade Setup window
+>
+>7.) Once ReShade has finished installing successfully, you may exit the installer.
+
+Upon opening the World of Warcraft client, you will see a ReShade toast at the top of the screen, prompting you to press the `Home` key to begin the ReShade tutorial. Any changes are reflected in realtime, so find a scenic spot in the world and adjust settings to what looks best for you.
+
 ## Extra Steps
 At this point, your graphics should appear more in line with modern version of World of Warcraft. Below are a few extra steps you can use to take your installation even further.
 
