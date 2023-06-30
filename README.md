@@ -44,13 +44,15 @@ While each source *should* contain the most up-to-date version of any given patc
 
 ### Other Patches:
 - [Blood Mod](https://www.mediafire.com/file/joqnhqjvx2ya6fw/Blood_Mod_Patch.zip) by [Inico](https://model-changing.net/files/file/128-blood-mod-for-wotlk-and-cata-v3/) adds blood puddle animations to combat that disappear over time.
+- [ChromieCraft Challenge Modes](https://www.mediafire.com/file/1uwxwis92hv9zfx/ChromieCraft_Challenge_Modes_Patch.zip) by [Roboto](https://www.chromiecraft.com/en/challenge-modes/) adds support for challenge modes on ChromieCraft. Be sure to also install the included `AIO` AddOn.
 - [ChromieCraft Cosmetics](https://www.mediafire.com/file/wgmn81hdsjqgjny/ChromieCraft_Cosmetics_Patch.zip) by [Roboto](https://discord.gg/jUdJRhmT3J) adds support for cosmetic icons on ChromieCraft.
-- [Clean Icons (WotLK Edition)](https://www.mediafire.com/file/dw2qlw9mptkdt81/Clean_Icons_Patch.zip/file) by [suicidalkatt](https://www.wowinterface.com/downloads/info19844), [AcidWeb](https://www.wowinterface.com/downloads/info25064-CleanIcons-MechagnomeEdition.html), and [Avarath](https://www.wowinterface.com/downloads/info25462-CleanIcons-MechagnomeEditionWOTLKClassic.html) upscales and homogenizes the icons to appear sharper and more detailed. Because this is not a patch, but texture replacements, they should be placed in `World of Warcraft\Interface`, relative to your Wrath of the Lich King client location.
+- [Clean Icons (WotLK Edition)](https://www.mediafire.com/file/dw2qlw9mptkdt81/Clean_Icons_Patch.zip) by [suicidalkatt](https://www.wowinterface.com/downloads/info19844), [AcidWeb](https://www.wowinterface.com/downloads/info25064-CleanIcons-MechagnomeEdition.html), and [Avarath](https://www.wowinterface.com/downloads/info25462-CleanIcons-MechagnomeEditionWOTLKClassic.html) upscales and homogenizes the icons to appear sharper and more detailed. Because this is not a patch, but texture replacements, they should be placed in `World of Warcraft\Interface`, relative to your Wrath of the Lich King client location.
 - [Dungeon Maps](https://www.mediafire.com/file/c7xzo65mlrpbrks/Dungeon_Maps_Patch.zip) by [Trimitor](https://forum.warmane.com/showthread.php?t=424250) adds instance maps for Classic and Burning Crusade instances. Be sure to also install the included `WDM` AddOn.
 - [LoginTweaks](https://www.mediafire.com/file/vzw3282zdhe88ty/LoginTweaks.zip) by [Marotheit](https://model-changing.net/files/file/307-logintweaks-wotlk/) removes much of the extra login screen clutter and adds a convenient 'Remember Password' option. Also available in an [ElvUI flavor](https://www.mediafire.com/file/bopbpw319m42uit/LoginTweaks_%2528ElvUI_Flavor%2529.zip). _**As an important note, using the 'Remember Password' feature stores your password in plain text, so understand you would be forgoing security in exchange for convenience.**_
 - [Old World Music Rescore](https://www.mediafire.com/file/kw0059s4vfxxhwy/Old_World_Music_Rescore_Patch.zip) by [Leeviathan](https://model-changing.net/gc/12-leeviathans-old-world-music-rescore/) replaces the [older vanilla zone music](https://www.youtube.com/watch?v=CRa537H1B_4) with the [rescored music](https://www.youtube.com/watch?v=qAY0T6lbPr8) introduced in Cataclysm.
 - [Shadowlands Menu](https://www.mediafire.com/file/0mudf3dsq14ba1f/Shadowlands_Menu_Patch.zip) by [vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) updates the login screen, character creation/selection menu, and loading screens to the ones introduced in Shadowlands. [My flavor](https://www.mediafire.com/file/tqbgboqevwueufo/Shadowlands_Menu_Patch_%2528Marotheit%2527s_Flavor%2529.zip) removes the loading screens and character creation icons. [[Before/After](https://user-images.githubusercontent.com/26125775/147440746-b7f79e9f-3ff8-40ea-aa02-0bb68dda7aec.png)]
 - [Updated Loading Screens](https://www.mediafire.com/file/sp9jz047xyrtrh2/Updated_Loading_Screens_Patch.zip) by [vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) updates the loading screens to use artwork introduced in Legion.
+- [Voiceover](https://github.com/mrthinger/wow-voiceover/releases) by [mrthinger](https://github.com/mrthinger/wow-voiceover/releases) adds text-to-speech support for gossip and quest texts. Be sure you install both the 3.3.5a `Voiceover` AddOn and the `Vanilla Sounds` pack.
 - [YetAnotherWaterPatch](https://www.mediafire.com/file/91els1b3hafmnln/YetAnotherWaterPatch.zip) by [Milly](https://web.archive.org/web/20160902001729/http://modcraft.superparanoid.de/viewtopic?f=59&t=8483), [Elrena](https://model-changing.net/files/file/3-cata-water-for-wrath-of-the-lich-king/), [Inico](https://model-changing.net/tutorials/article/90-wotlk-procedural-water-understanding-and-improving-it/), [vulpe](https://model-changing.net/files/file/212-improved-water-for-335a-working/?tab=comments), and [Marotheit](https://github.com/Marotheit) replaces the water, lava, and slime textures to make them appear similar to textures introduced in later expansions. I've experimented with many of the popular water mods out there and compiled the assets I liked most from all of them. [[Before/After](https://user-images.githubusercontent.com/26125775/147507984-625a77c0-867b-40be-9a35-c83ebc7880ca.png)]
 
 ## Visual Settings
@@ -100,7 +102,7 @@ Ultra+ Graphics 3:
 
 To install and configure ReShade, follow the step below.
 
->1.) Download [ReShade v4.9.1](https://www.mediafire.com/file/32o5pwxibc8m7rz/ReShade_Setup_v4.9.1.zip/file), and extract the zip to a location of your choosing.
+>1.) Download [ReShade v4.9.1](https://www.mediafire.com/file/32o5pwxibc8m7rz/ReShade_Setup_v4.9.1.zip), and extract the zip to a location of your choosing.
 >
 >2.) Launch the downloaded ReShade Setup executable.
 >
@@ -110,11 +112,9 @@ To install and configure ReShade, follow the step below.
 >
 >5.) You will be prompted to select the effects packages you wish to install. I recommend the default options (the full 'Standard effects' installation and the full 'SweetFX' installation). Click the 'OK' button when you have completed this step.
 >
->6.) At this point, assuming the installation was successful, you can exit the ReShade Setup window
->
->7.) Once ReShade has finished installing successfully, you may exit the installer.
+>6.) At this point, assuming the installation was successful, you may exit the ReShade Setup window.
 
-Upon opening the World of Warcraft client, you will see a ReShade toast at the top of the screen, prompting you to press the `Home` key to begin the ReShade tutorial. Any changes are reflected in realtime, so find a scenic spot in the world and adjust settings to what looks best for you.
+Upon opening the World of Warcraft client, you will see a ReShade toast at the top of the screen, prompting you to press the `Home` key to begin the ReShade tutorial. Any changes are reflected in real time, so find a scenic spot in the world and adjust settings to what looks best for you.
 
 ## Extra Steps
 At this point, your graphics should appear more in line with modern version of World of Warcraft. Below are a few extra steps you can use to take your installation even further.
