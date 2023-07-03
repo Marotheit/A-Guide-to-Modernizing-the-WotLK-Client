@@ -1,3 +1,9 @@
+(07.03.2023)
+- Fixed a formatting issue in `PatchInitializationOrder.md`.
+- Updated vvladoon's Updated Spell Visuals initialization order to `patch-G.MPQ` to avoid conflicts with vvladoon's Updated Creature Models.
+- Updated Roboto's ChromieCraft Challenge Modes patch.
+- Moved mrthinger's Voiceover AddOn to it's own section under `Extra Steps`.
+##
 (06.29.2023)
 - Added a section on ReShade installation.
 - Added Roboto's ChromieCraft Challenge Modes patch. I know this is server specific, but my friends and family play exclusively on ChromieCraft.
