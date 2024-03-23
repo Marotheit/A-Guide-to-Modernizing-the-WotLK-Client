@@ -107,7 +107,7 @@ To install and configure ReShade, follow the step below.
 >
 >3.) Click the 'Click here to select a game and manage its ReShade installation' button and navigate to (and select) the World of Warcraft executable.
 >
->4.) Select 'OpenGL' as the rendering API.
+>4.) Select 'Direct3D 9' as the rendering API.
 >
 >5.) You will be prompted to select the effects packages you wish to install. I recommend the default options (the full 'Standard effects' installation and the full 'SweetFX' installation). Click the 'OK' button when you have completed this step.
 >
