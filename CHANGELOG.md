@@ -1,3 +1,11 @@
+(08.06.2024)
+- Grammatical and layout changes.
+- Added a link and recommendation to use Reznik's WotLK Boost.
+- Deprecated YetAnotherWaterPatch in favor of the water patch from Project Epoch.
+- Removed mirrors to patches that are still available out of respect for the original authors.
+- Updated links that pointed to model-changing.net to now point to the wayback machine, since they are prone to being removed.
+- Removed references to ChromieCraft.
+##
 (07.03.2023)
 - Fixed a formatting issue in `PatchInitializationOrder.md`.
 - Updated vvladoon's Updated Spell Visuals initialization order to `patch-G.MPQ` to avoid conflicts with vvladoon's Updated Creature Models.
