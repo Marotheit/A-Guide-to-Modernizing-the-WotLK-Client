@@ -1,3 +1,11 @@
+(11.17.2024)
+- Updated model-changing.net links to now point to the WoW Modding community where applicable.
+- Added a link and recommendation to use WoWPatcher for Large Address Aware.
+- Pointed to a comment in which I detail personal changes made to Reznik's WotLK Boost.
+- Updated Ultra+ Graphics macro to incorporate changes. (WIP, needs further testing/research)
+- Added a section on RCEPatcher and WoWPatcher.
+- Removed `SET windowResizeLock "1"` from Windows Fullscreen settings as it can cause strange scaling issues at some resolutions.
+##
 (08.06.2024)
 - Grammatical and layout changes.
 - Added a link and recommendation to use Reznik's WotLK Boost.
