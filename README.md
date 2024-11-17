@@ -10,9 +10,9 @@ In this guide, we will discuss the basics of client-side patches, provide source
 
 Client-Side Patches are pre-compiled data packages for World of Warcraft that are initialized upon launching the game. Patches often contain enhancements for the game in the form of improved textures, updated models, and various interface changes (like custom loading screens or music). These patches are shared in `.MPQ` format and stored in the `World of Warcraft\Data` folder.
 
-The best place to find patches you may be interested in includes the now defunct [Model Changing Network](https://model-changing.net/) and [Modcraft.io](https://web.archive.org/web/20210123222835/www.modcraft.io/index.php) websites through the [Wayback Machine](https://web.archive.org/web/20210123222835/www.modcraft.io/index.php), and various private server forums around the internet.
+The best place to find patches you may be interested in includes [WoW  Modding](https://www.wowmodding.net/), the now defunct [Modcraft.io](https://web.archive.org/web/20210123222835/www.modcraft.io/index.php) through the [Wayback Machine](https://web.archive.org/web/20210123222835/www.modcraft.io/index.php), and various private server forums around the internet.
 
-Applying certain patches may have an impact on your client's performance, so be wary of your framerate. In addition, running many patches has been known to max out the 2GB of available memory the Wrath of the Lich King client has access to, leading to random game crashes. You can (usually) remedy this problem by using [Large Address Aware](https://www.techpowerup.com/forums/threads/large-address-aware.112556/) (if you have enough memory) to allow the client access up to 4GB of available memory.
+Applying certain patches may have an impact on your client's performance, so be wary of your framerate. In addition, running many (or large) patches has been known to max out the 2GB of available memory the Wrath of the Lich King client has access to, leading to random game crashes. You can (usually) remedy this problem by using [WoWPatcher](https://github.com/anzz1/WoWPatcher335) or [Large Address Aware](https://www.techpowerup.com/forums/threads/large-address-aware.112556/) (if you have enough memory) to allow the client access up to 4GB of available memory, but be sure to make a backup of the executable in the event you need to revert to it at a later date.
 
 It is important to mention that because of the way many files are shared between different systems in the game, some patches may have unforeseen issues and not all patches are compatible with one another, so you must be careful about which ones you decide to add to your installation. As a general rule of thumb, patches that both effect the same item(s) (such as lighting, animations, models, textures, music, etc.) may not be compatible with one another.
 
@@ -21,7 +21,7 @@ After you have downloaded all components of a patch and ensured the game is full
 
 You should _**never**_ overwrite the original patches provided to you during the initial setup process (this being `common.MPQ`, `common-2.MPQ`, `expansion.MPQ`, `lichking.MPQ`, `patch.MPQ`, `patch-2.MPQ`, or `patch-3.MPQ`), otherwise your installation will cease to work.
 
-Patches are initialized in numerical, then alphabetical order. In rare instances, some patches must load before others to ensure compatibility. You can find the recommended initialization order for the below patches [here](https://github.com/Marotheit/A-Guide-to-Modernizing-the-WotLK-Client/blob/main/PatchInitializationOrder.md), should you choose to install patches manually instead of [Reznik's WotLK Boost](https://github.com/Marotheit/A-Guide-to-Modernizing-the-WotLK-Client/tree/main?tab=readme-ov-file#rezniks-wotlk-boost).
+Patches are initialized in numerical, then alphabetical order. In rare instances, some patches must load before others to ensure compatibility. You can find the recommended initialization order for the below patches [here](https://github.com/Marotheit/A-Guide-to-Modernizing-the-WotLK-Client/blob/main/PatchInitializationOrder.md), should you choose to install patches manually instead of utilizing [Reznik's WotLK Boost](https://github.com/Marotheit/A-Guide-to-Modernizing-the-WotLK-Client/tree/main?tab=readme-ov-file#rezniks-wotlk-boost), which is a high quality all-in-one solution.
 
 If you wish to uninstall a patch, simply delete it from the `World of Warcraft\Data` folder.
 
@@ -36,10 +36,10 @@ Any patches that are formatted using the `patch-RU-X.MPQ` file naming scheme sho
 
 [Reznik Shaman](https://reznik-fandom-com.translate.goog/wiki/Reznik_Wiki?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) has released v1.1.1 of his [WotLK Boost](https://reznik-fandom-com.translate.goog/wiki/WotLK_Boost?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) patch, which can be downloaded [here](https://reznik.fandom.com/wiki/WotLK_Boost#Download). This patch combines many of the patches listed below in a single patch, including updated character/creature/item models, spell animations, 8x upscaled environment/clothing textures, the blood mod, and updated liquid textures. This patch also features zero encryption, so adventurous players can modify the contents to their heart's content using tools such as [Ladik's MPQ Editor](https://www.hiveworkshop.com/threads/ladiks-mpq-editor.249562/).
 
-*As a personal side note, I have switched to using Reznik's WotLK Boost patch almost exclusively (after removing the custom interface changes) instead of using individual patches. The quality of this patch is really impressive and Reznik has a strong history in modifying the game. This patch may not be supported on all servers, but I cannot recommend it enough.*
+*As a personal side note, I have switched to using Reznik's WotLK Boost patch almost exclusively (after making some [personal modifications](https://github.com/Marotheit/A-Guide-to-Modernizing-the-WotLK-Client/issues/10#issuecomment-2481002297) using [Ladik's MPQ Editor](https://www.hiveworkshop.com/threads/ladiks-mpq-editor.249562/)) instead of using individual patches. The quality of this patch is really impressive and Reznik has a strong history in modifying the game. This patch may not be supported on all servers, but I cannot recommend it enough.*
 
 ### Model Changes:
-- [Updated Character Models](https://forum-uwow-biz.translate.goog/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (Section 4 → Main Patches → `Patch-RU-H.MPQ`) by [Leeviathan and vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) updates the player and humanoid NPC models to use models introduced in Warlords of Draenor. [[Before/After](https://user-images.githubusercontent.com/26125775/147448601-a8460dcf-cde5-4a88-a135-94eab84f7997.png)]
+- [Updated Character Models](https://forum-uwow-biz.translate.goog/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (Section 4 → Main Patches → `Patch-RU-H.MPQ`) by [Leeviathan](https://www.wowmodding.net/topic/1133-release-wotlk-creature-models-for-wotlk-author-finsternis/#comment-7029) and [vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) updates the player and humanoid NPC models to use models introduced in Warlords of Draenor. [[Before/After](https://user-images.githubusercontent.com/26125775/147448601-a8460dcf-cde5-4a88-a135-94eab84f7997.png)]
   -  *As an **important** note, this patch will sometimes cause issues when interacting with Goblins. If you run into this issue, simply uninstalling the patch will allow you to converse with Goblins.*
 - [Updated Creature Models](https://forum-uwow-biz.translate.goog/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (Section 4 → Main Patches → `Patch-RU-A.MPQ`) by [vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) updates the creature, enemy, and mount models to more closely resemble those introduced in Cataclysm and onward. [[Before/After 1](https://user-images.githubusercontent.com/26125775/147448664-ef2f8c5b-c705-42ee-806e-cffb8e690c0d.png)] | [[Before/After 2](https://user-images.githubusercontent.com/26125775/147448041-c0090ca9-0149-4f8a-8e1e-43a13afaa905.png)]
 - [Updated Item Models](https://forum-uwow-biz.translate.goog/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (Section 4 → Main Patches → `Patch-RU-I.MPQ`) by [vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) updates many item models to more closely resemble those introduced in Cataclysm and onward.
@@ -48,13 +48,13 @@ Any patches that are formatted using the `patch-RU-X.MPQ` file naming scheme sho
   - *As a **VERY** important note, some servers feature an anti-cheat that flags players with modified spells databases. **Continue at your own risk!***
 
 ### Texture Changes:
-- [Sunlight Alpha Texture](https://www.mediafire.com/file/o89be66zjk8l7m2/Sunlight_Alpha_Texture_Patch.zip) by [Nicolas](http://web.archive.org/web/20210731122649/https://model-changing.net/files/file/129-sun-light-alpha-wow/) modifies the texture assigned to the sun to make it appear more realistic, resembling the texture used in the Alpha build of World of Warcraft.
+- [Sunlight Alpha Texture](https://www.wowmodding.net/files/file/119-sun-light-alpha-wow/) by [Nicolas](https://www.wowmodding.net/files/file/119-sun-light-alpha-wow/) modifies the texture assigned to the sun to make it appear more realistic, resembling the texture used in the Alpha build of World of Warcraft.
 - [Updated Battleground Textures](https://forum-uwow-biz.translate.goog/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (Section 4 → Main Patches → `Patch-RU-U.MPQ`) by [vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) updates the appearance of battleground models and textures to more closely resemble those introduced in Cataclysm and onward.
-- [Updated Environment Textures](https://forum-uwow-biz.translate.goog/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (Section 4 → Main Patches → `Patch-RU-T.MPQ`) by [Finsternis and vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) updates the environment tileset textures used throughout the world. [[Before/After](https://user-images.githubusercontent.com/26125775/147499245-3d88d6b1-cb8e-42d2-a62e-d1faacb62ba8.png)]
-- [Upscaled Clothing Textures](https://forum-uwow-biz.translate.goog/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (Section 4 → Main Patches → `Patch-RU-E.MPQ`) by [sh1tdev and vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) upscales all clothing textures by 4x to allow clothing to appear sharper and more detailed. [[Before/After 1](https://user-images.githubusercontent.com/26125775/147497660-8649706b-eea2-4f36-abbf-2da3da64c873.png)] | [[Before/After 2](https://user-images.githubusercontent.com/26125775/147450940-bd33dc24-d787-462b-b103-72c7c95f7f1f.png)]
+- [Updated Environment Textures](https://forum-uwow-biz.translate.goog/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (Section 4 → Main Patches → `Patch-RU-T.MPQ`) by [Finsternis](https://www.wowmodding.net/topic/1132-environment-and-city-textures-author-finsternis/#comment-7027) and [vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) updates the environment tileset textures used throughout the world. [[Before/After](https://user-images.githubusercontent.com/26125775/147499245-3d88d6b1-cb8e-42d2-a62e-d1faacb62ba8.png)]
+- [Upscaled Clothing Textures](https://forum-uwow-biz.translate.goog/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (Section 4 → Main Patches → `Patch-RU-E.MPQ`) by [sh1tdev](https://www.wowmodding.net/files/file/199-vanilla-tbc-and-wotlk-clothing-textures-upscaled-for-335/page/2/?tab=comments#comment-1116) and [vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) upscales all clothing textures by 4x to allow clothing to appear sharper and more detailed. [[Before/After 1](https://user-images.githubusercontent.com/26125775/147497660-8649706b-eea2-4f36-abbf-2da3da64c873.png)] | [[Before/After 2](https://user-images.githubusercontent.com/26125775/147450940-bd33dc24-d787-462b-b103-72c7c95f7f1f.png)]
 
 ### Other Patches:
-- [Blood Mod](https://www.mediafire.com/file/joqnhqjvx2ya6fw/Blood_Mod_Patch.zip) by [Inico](http://web.archive.org/web/20211028174009/https://model-changing.net/files/file/128-blood-mod-for-wotlk-and-cata-v3/) adds blood puddle animations to combat that disappear over time.
+- [Blood Mod](https://www.wowmodding.net/files/file/118-blood-mod-for-wotlk-and-cata-v3/) by [Inico](https://www.wowmodding.net/files/file/118-blood-mod-for-wotlk-and-cata-v3/) adds blood puddle animations to combat that disappear over time.
 - [Clean Icons (Mechagnome Edition)](https://github.com/AcidWeb/Clean-Icons-Mechagnome-Edition/releases) by [suicidalkatt](https://www.wowinterface.com/downloads/info19844) and [AcidWeb](https://www.wowinterface.com/downloads/info25064-CleanIcons-MechagnomeEdition.html) upscales and homogenizes the icons to appear sharper and more detailed.
   - *Because this is not a patch, but texture replacements, they should be placed in `World of Warcraft\Interface\ICONS`, relative to your Wrath of the Lich King client location.*
 - [Dungeon Maps](https://forum.warmane.com/showthread.php?t=424250) by [Trimitor](https://forum.warmane.com/showthread.php?t=424250) adds instance maps for Classic and Burning Crusade instances.
@@ -65,7 +65,6 @@ Any patches that are formatted using the `patch-RU-X.MPQ` file naming scheme sho
 - [Shadowlands Menu](https://forum-uwow-biz.translate.goog/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (Section 4 → Main Patches → `Patch-RU-L.MPQ`) by [vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) updates the login screen, character creation/selection menu, and loading screens to the ones introduced in Shadowlands. [My flavor](https://www.mediafire.com/file/tqbgboqevwueufo/Shadowlands_Menu_Patch_%2528Marotheit%2527s_Flavor%2529.zip) removes the loading screens and character creation icons. [[Before/After](https://user-images.githubusercontent.com/26125775/147440746-b7f79e9f-3ff8-40ea-aa02-0bb68dda7aec.png)]
 - [Updated Loading Screens](https://forum-uwow-biz.translate.goog/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) (Section 4 → Additional Patches → `Patch-RU-R.MPQ`) by [vvladoon](https://forum.uwow.biz/threads/cvpatch-collection-visual-patch-lich-king-3-3-5.296264/) updates the loading screens to use artwork introduced in Legion.
 - [Project Epoch Water Patch](https://discord.gg/mzCSaZYWuC) (Project Epoch Discord → Announcements → `Patch-W.MPQ`) by [Intra](https://discord.gg/mzCSaZYWuC) replaces the water, lava, and slime textures to make them appear similar to textures introduced in later expansions, while also adhering to the limitations of the Vanilla client.
-- ~~[YetAnotherWaterPatch](https://www.mediafire.com/file/91els1b3hafmnln/YetAnotherWaterPatch.zip) by [Milly](https://web.archive.org/web/20160902001729/http://modcraft.superparanoid.de/viewtopic?f=59&t=8483), [Elrena](https://model-changing.net/files/file/3-cata-water-for-wrath-of-the-lich-king/), [Inico](https://model-changing.net/tutorials/article/90-wotlk-procedural-water-understanding-and-improving-it/), [vulpe](https://model-changing.net/files/file/212-improved-water-for-335a-working/?tab=comments), and [Marotheit](https://github.com/Marotheit) replaces the water, lava, and slime textures to make them appear similar to textures introduced in later expansions. I've experimented with many of the popular water mods out there and compiled the assets I liked most from all of them. [[Before/After](https://user-images.githubusercontent.com/26125775/147507984-625a77c0-867b-40be-9a35-c83ebc7880ca.png)]~~
 
 ## Visual Settings
 Beyond basic graphical settings (i.e., the standard graphical presets) there are console commands you can run in-game to increase graphical variables higher than Blizzard allowed through the in-game video settings menu. On that note, you should probably only perform these commands on a higher-end PC. Running the following commands will result in extra details around the world becoming more noticeable.
@@ -77,12 +76,12 @@ The commands below have been seperated into three easy to use macros for your co
 Ultra+ Graphics 1:
 ```
 /console environmentDetail 150
-/console farclip 777
+/console farclip 1600
 /console ffxnetherworld 1
 /console ffxspecial 1
-/console groundEffectDensity 192
+/console groundEffectDensity 256
 /console groundEffectDist 140
-/console groundEffectFade 1000
+/console groundEffectFade 1277
 /console gxmultiesample 8
 /console horizonFarclipScale 6
 ```
@@ -94,7 +93,7 @@ Ultra+ Graphics 2:
 /console shadowmode 3
 /console shadowtexturesize 2048
 /console skycloudlod 3
-/console spellEffectLevel 200
+/console spellEffectLevel 150
 /console ssao 2
 /console terrainMipLevel 0
 /console textureFilteringMode 5
@@ -131,14 +130,25 @@ Upon opening the World of Warcraft client, you will see a ReShade toast at the t
 ## Extra Steps
 At this point, your graphics should appear more in line with modern version of World of Warcraft. Below are a few extra steps you can use to take your installation even further.
 
-### Using a Batch File to Clear Your Cache Before Startup
-You can use a batch file to clear your cached files before you launch World of Warcraft. This is a good way to avoid common issues from appearing in-game. Simply download [this batch file](https://www.mediafire.com/file/u2zcm0y5clhis1q/Clear_Cache_Batch.zip) (or create a batch file with the text below) and place it into your Wrath of the Lich King client install location. You should launch the game using this batch file from now on.
-```
-@echo off
-rd /s /q "Cache"
-start WoW.exe
-exit
-```
+### Using RCEPatcher to Remove the Remote Code Execution Vulnerability
+[RCEPatcher](https://github.com/stoneharry/RCEPatcher) should be used to patch a remote code execution vulnerability within the World of Warcraft executable. This vulnerability could allow a malicious private server owner to run any code they may choose on your computer, even without your knowledge. While this could allow for some useful server features (such as attempting to detect hackers/botters) it is also a rather large security concern. Follow the steps below to use [RCEPatcher](https://github.com/stoneharry/RCEPatcher) to patch your World of Warcraft executable.
+
+>1.) Download the latest [RCEPatcher](https://github.com/stoneharry/RCEPatcher/releases/) binary (or ideally, build the binary yourself after reviewing the code) from the RCEPatcher repository.
+>
+>2.) Extract the binary zip into a folder you can remember.
+>
+>3.) After ensuring you have made a backup of your original World of Warcraft executable, copy it into the same folder as the RCEPatcher binary.
+>
+>4.) Open Windows PowerShell as an administrator and use the `cd` command to navigate to the RCEPatcher folder.
+>
+>5.) Run `.\RCEPatcher.exe "<path-to-Wow.exe>"`
+>
+>6.) `Wow-patched.exe` will be created. This new executable will be patched against remote code executions on servers. You may now move the `Wow-patched.exe` executable into your World of Warcraft installation folder and delete any previously downloaded/extracted files.
+
+You should now use the newly created `Wow-patched.exe` to join servers more safely, but as always, you should play on servers you can trust and verify. If a server attempts to employ remote code execution, the World of Warcraft client will exit with an `ERROR #132 (0x85100084) Fatal Exception` error code, at which point you should be asking questions.
+
+### Using WoWPatcher to Disable the Creation of the `Cache` folder
+[WoWPatcher](https://github.com/anzz1/WoWPatcher335) has the ability to disable the creation of the `Cache` folder, which is a good way to avoid common issues from appearing in-game. Simply download [WoWPatcher](https://github.com/anzz1/WoWPatcher335), place your `Wow.exe` executable into the same folder as `WoWPatcher.exe`, and run WoWPatcher. You will be presented with a few different options to modify your World of Warcraft executable, such as applying Large Address Aware to allow the client access up to 4GB of available memory, and allowing interface edits for use with [LoginTweaks](https://www.mediafire.com/file/vzw3282zdhe88ty/LoginTweaks.zip).
 
 ### Push Your Graphical/Performance Configuration Further
 You can set some graphical and performance settings even higher by editing your configuration file. Navigate to `World of Warcraft\WTF` and open `Config.wtf` in a notepad. Add the lines below to push your World of Warcraft settings even further.
@@ -153,7 +163,6 @@ Additionally, you can overwrite the lines below to enable Windowed Fullscreen, w
 ```
 SET gxWindow "1"
 SET gxMaximize "1"
-SET windowResizeLock "1"
 ```
 
 After your done, save the configuration file and open World of Warcraft to observe your changes. If the game has issues loading, you can simply delete `Config.wtf` (which will reset all your saved options) and try again.
