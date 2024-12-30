@@ -1,3 +1,6 @@
+(12.29.2024)
+- Added pixel perfect scaling instructions for Windows.
+##
 (11.17.2024)
 - Updated model-changing.net links to now point to the WoW Modding community where applicable.
 - Added a link and recommendation to use WoWPatcher for Large Address Aware.
