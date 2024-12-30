@@ -130,6 +130,20 @@ Upon opening the World of Warcraft client, you will see a ReShade toast at the t
 ## Extra Steps
 At this point, your graphics should appear more in line with modern version of World of Warcraft. Below are a few extra steps you can use to take your installation even further.
 
+### Pixel Perfect Scaling
+
+When using odd resolutions (such as 2560x1440, or 1440p,) you may notice that pixel scaling can appear blurry or unevenly spaced. This is especially noticable when using sharp interface AddOns, such as [ElvUI](https://github.com/ElvUI-WotLK/ElvUI). This can be remedied by changin the scaling properties of the game within the `Config.wtf` file and within Windows.
+
+>1.) Navigate to `World of Warcraft\WTF` and open `Config.wtf` in a notepad editor of your choice. Add the following line anywhere in the `Config.wtf` to disable window resizing:
+>
+> ```SET windowResizeLock "1"```
+>
+>2.) Navigate to `World of Warcraft` and right-click the `Wow.exe` executable. Select `Properties`, enter the `Compatibility` tab, and click the `Change high DPI settings` button.
+>
+>3.) Tick the `Override high DPI scaling behavior` checkbox, and set the scaling to be performed by the application.
+
+This will cause the rendering to be controlled by the `Wow.exe` executable without interference from Windows, allowing for a sharp image.
+
 ### Using RCEPatcher to Remove the Remote Code Execution Vulnerability
 [RCEPatcher](https://github.com/stoneharry/RCEPatcher) should be used to patch a remote code execution vulnerability within the World of Warcraft executable. This vulnerability could allow a malicious private server owner to run any code they may choose on your computer, even without your knowledge. While this could allow for some useful server features (such as attempting to detect hackers/botters) it is also a rather large security concern. Follow the steps below to use [RCEPatcher](https://github.com/stoneharry/RCEPatcher) to patch your World of Warcraft executable.
 
